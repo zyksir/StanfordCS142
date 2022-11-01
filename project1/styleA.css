@@ -1,0 +1,44 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 40px;
+}
+.flex-container {
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deep {
+    width: 100px;
+    height: 100px;
+    background-color: #dfe1e7;
+
+    border-top: 1px;
+    border-top-color: #687291;
+    border-top-style: solid;
+    text-align: center;
+}
+.light {
+    width: 100px;
+    height: 100px;
+    background-color: #eeeff2;
+
+    border-top: 1px;
+    border-top-color: #687291;
+    border-top-style: solid;
+    text-align: center;
+}
+.special {
+    width: 100px;
+    height: 100px;
+    background-color: #687291;
+
+    border: 3px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.space {
+    width: 100px;
+    height: 10px;
+    background-color: white;
+}

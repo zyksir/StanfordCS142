@@ -1,0 +1,78 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 40px;
+}
+.flex-container {
+    display: -webkit-flex;
+    flex-direction: row;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+@keyframes testDeep {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75% {background-color: green;}
+}
+.deep {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+
+    border-left: 10px #D0D0FF dotted;
+    padding-left: 10px;
+    text-align: left;
+    animation-name: testDeep;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+.deep:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+.light {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+
+    border-left: 10px #D0D0FF dotted;
+    padding-left: 10px;
+    text-align: left;
+}
+.light:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+.special {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+
+    border-left: 10px #D0D0FF dotted;
+    padding-left: 10px;
+    text-align: left;
+
+    display: -webkit-flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+    -webkit-transition:width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.special:hover {
+    width: 120px;
+    height:180px;
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+.space {
+    width: 10px;
+    height: 100px;
+    background-color: white;
+}
